@@ -151,20 +151,20 @@ a = ["the beatles", "the rolling stones", "queen", "led zepellin"]
 
 # Para anticipar y manejar los errores, podemos usar la clausula **try** y **except**
 
-a = '20'
-b = 5
+#a = '20'
+#b = 5
 
-try:
-    print(a+b)
-except:
-    print(int(a)+int(b)) # convierto a int ambas variables
+#try:
+#    print(a+b)
+#except:
+#    print(int(a)+int(b)) # convierto a int ambas variables
 
-# Si queremos ver qué excepción ocurrió, podemos usar la siguiente sintáxis:
+## Si queremos ver qué excepción ocurrió, podemos usar la siguiente sintáxis:
 
-try:
-    print(a+b)
-except Exception as e:
-    print(f"El error fue {e}")
+#try:
+#    print(a+b)
+#except Exception as e:
+#    print(f"El error fue {e}")
 
 # También podemos especificar qué hacer para distintos tipos de error:
 
